@@ -5,237 +5,329 @@
 </p>
 
 <p align="center">
-  Identify suspicious messages, inspect potentially unsafe URLs, and develop smarter digital safety habits.
+  Helping you identify suspicious messages, inspect potentially unsafe URLs, and build smarter digital safety habits.
 </p>
 
 <p align="center">
-  <a href="https://github.com/iamparrish/scamlens">
-    <img src="https://img.shields.io/badge/Project-ScamLens-7C5CFC?style=for-the-badge" alt="ScamLens">
-  </a>
-  <img src="https://img.shields.io/badge/Technology-Vanilla%20JavaScript-yellow?style=for-the-badge" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Platform-Web-blue?style=for-the-badge" alt="Web">
-  <img src="https://img.shields.io/badge/Hosting-GitHub%20Pages-black?style=for-the-badge" alt="GitHub Pages">
+  <img src="https://img.shields.io/badge/Project-ScamLens-7C5CFC?style=for-the-badge" alt="ScamLens">
+  <img src="https://img.shields.io/badge/Technology-Vanilla%20JavaScript-yellow?style=for-the-badge" alt="Vanilla JavaScript">
+  <img src="https://img.shields.io/badge/Platform-Web-blue?style=for-the-badge" alt="Web Platform">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge" alt="Active Development">
 </p>
 
 ---
 
 ## 🌐 About ScamLens
 
-ScamLens is a lightweight cybersecurity awareness project designed to help users recognize common warning signs in suspicious digital communications.
+In today's connected world, digital communication has become part of almost everything we do. From online banking and UPI transactions to social media, shopping, and everyday messaging, we rely on the internet more than ever.
 
-With the increasing use of online banking, UPI payments, digital services, and social media, fraudulent messages and deceptive links have become a growing concern.
+But with this convenience comes an increasing risk of phishing attempts, fraudulent messages, deceptive links, and online scams.
 
-ScamLens provides a simple platform where users can analyze suspicious messages, inspect URLs, understand potential warning signs, and learn practical ways to protect themselves online.
+**ScamLens** is a browser-based cybersecurity awareness tool designed to help users recognize common warning signs in suspicious digital communications.
 
-The project focuses on making cybersecurity awareness more accessible through an easy-to-use interface and explainable results.
+It provides a simple platform to analyze potentially fraudulent messages, inspect suspicious URLs, understand detected warning signs, and learn practical ways to stay safer online.
 
-**Our philosophy is simple: Pause before you click. Check before you trust.**
+Rather than overwhelming users with technical security terminology, ScamLens focuses on making digital safety understandable, accessible, and practical.
+
+### Our Mission
+
+To make everyday internet users more aware of digital threats and encourage safer online decisions through accessible cybersecurity tools and education.
+
+> **Pause before you click. Check before you trust. Stay one step safer.**
+
+---
 
 ## ✨ Key Features
 
-### 📨 1. Message Scanner
-- Analyze suspicious SMS, WhatsApp messages, and emails.
-- Identify common phishing and fraud-related patterns.
-- Detect suspicious payment requests and urgent messages.
-- Highlight requests involving OTPs, passwords, PINs, and banking information.
-- Display explanations for detected warning signs.
+### 📨 1. Suspicious Message Scanner
 
-### 🔗 2. URL Scanner
-- Inspect website URLs without opening them.
-- Identify potentially suspicious URL structures.
-- Detect unusual subdomains and IP-based hostnames.
-- Highlight certain deceptive-looking domain characteristics.
-- Display an illustrative warning score.
+Analyze potentially suspicious messages received through SMS, WhatsApp, email, or other digital communication platforms.
 
-### 📊 3. Risk Indicator System
-- Provides a heuristic score from 0 to 100.
-- Displays three warning levels: Lower Indicator Score, Caution, and High Risk.
-- Explains which detection patterns contributed to the score.
-- Provides practical safety recommendations.
+- Identifies common phishing and scam-related language patterns.
+- Highlights suspicious urgency and pressure tactics.
+- Detects potentially fraudulent payment requests.
+- Recognizes warning signs involving OTPs, passwords, PINs, and banking details.
+- Provides explanations of the patterns detected during analysis.
 
-### 🕒 4. Scan History
-- View previously analyzed messages and URLs.
+### 🔗 2. URL Safety Scanner
+
+Inspect potentially unsafe website URLs before deciding whether to visit them.
+
+- Analyzes URL structures without requiring users to open the destination website.
+- Identifies unusual or suspicious URL patterns.
+- Highlights IP-based hostnames and unusual subdomain structures.
+- Checks for certain deceptive-looking domain characteristics.
+- Provides an indicative risk score based on detected patterns.
+
+### 📊 3. Explainable Risk Assessment
+
+ScamLens uses a heuristic scoring system to communicate potential warning signs.
+
+- Generates an indicative score between 0 and 100.
+- Presents results using three risk-indicator levels.
+- Explains which detection patterns contributed to the result.
+- Provides relevant safety recommendations.
+
+The goal is not just to display a score, but to help users understand *why* something may deserve attention.
+
+### 🕒 4. Scan History and Reports
+
+Keep track of previously performed scans.
+
+- View previous message and URL analyses.
 - Store scan history locally in the browser.
-- Export scan history in CSV format.
-- Clear saved history whenever required.
+- Export available scan records in CSV format.
+- Clear locally stored history whenever required.
 
 ### 🎓 5. Cyber Safety Academy
-Learn about common online fraud techniques, including:
+
+Learn about common online threats through accessible cybersecurity awareness content.
+
+Topics include:
+
 - Phishing attacks
 - Fake banking and KYC alerts
-- Online job scams
+- Online job and recruitment scams
 - UPI payment fraud
 - Fake prize and lottery messages
 - OTP theft and social engineering
 
-### 🧠 6. Interactive Safety Quiz
-- Test your cybersecurity awareness.
-- Answer practical scenario-based questions.
-- Receive instant feedback.
-- Track your quiz score and improve your knowledge.
+### 🧠 6. Interactive Cyber Safety Quiz
 
-### 📱 7. Responsive Interface
-- Modern cybersecurity-inspired design.
-- Dark-themed user interface.
-- Responsive layout for different screen sizes.
-- Simple navigation and accessible controls.
+Test your understanding of common online scams through interactive questions.
+
+- Scenario-based cybersecurity questions.
+- Instant feedback on answers.
+- Score tracking.
+- An engaging way to reinforce safer online habits.
+
+### 📱 7. Responsive User Interface
+
+Designed to provide a consistent experience across different devices.
+
+- Modern cybersecurity-inspired visual design.
+- Dark-themed interface.
+- Responsive layouts for different screen sizes.
+- Simple navigation and user-friendly controls.
 
 ---
 
 ## 🛠️ Technology Stack
 
+ScamLens is built using lightweight web technologies, keeping the application simple and easy to run.
+
 | Technology | Purpose |
 |---|---|
-| HTML5 | Application structure |
-| CSS3 | Styling and responsive design |
-| JavaScript | Detection logic and interactivity |
-| LocalStorage | Browser-based scan history |
-| GitHub Pages | Static website hosting |
+| HTML5 | Application structure and content |
+| CSS3 | Styling, layout, and responsive design |
+| Vanilla JavaScript | Application logic, detection rules, and interactivity |
+| Browser LocalStorage | Local scan-history storage |
+| CSV | Exporting scan-history records |
+| GitHub | Source-code management |
 
-## ⚙️ How It Works
+**No framework or additional package installation is required to run the current application.**
 
-ScamLens currently uses a lightweight, rule-based detection mechanism.
+---
 
-**Step 1 — Input:** The user enters a suspicious message or URL.
+## ⚙️ How ScamLens Works
 
-**Step 2 — Analysis:** JavaScript checks the input against predefined detection patterns.
+ScamLens currently uses a rule-based detection approach to identify predefined patterns commonly associated with suspicious digital communications.
 
-**Step 3 — Identification:** Matching patterns are displayed with explanations.
+### Analysis Workflow
 
-**Step 4 — Risk Indicator:** A heuristic score is calculated using the matched rules.
+**Step 1 — Input**
 
-**Step 5 — Awareness:** The user receives safety recommendations and guidance.
+The user enters a suspicious message or website URL into the relevant scanner.
 
-The results are designed to help users make more informed decisions rather than automatically determine whether something is fraudulent.
+**Step 2 — Pattern Analysis**
+
+The application processes the input using predefined JavaScript detection rules.
+
+**Step 3 — Warning Identification**
+
+Potentially suspicious patterns are identified and presented with relevant explanations.
+
+**Step 4 — Risk Assessment**
+
+A heuristic score is calculated using the detected patterns.
+
+**Step 5 — Safety Guidance**
+
+The application displays the analysis results and practical recommendations to help users make more informed decisions.
+
+The scoring system is intended as an awareness aid, not as a definitive fraud-verification mechanism.
+
+---
 
 ## 🚀 Getting Started
 
-### Run the project locally
+Want to explore ScamLens or run it on your computer? Follow these steps.
 
-Clone the repository:
+### Prerequisites
 
-\`\`\`bash
+- A modern web browser.
+- Git installed on your system (optional, for cloning the repository).
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/iamparrish/scamlens.git
-\`\`\`
+```
 
-Navigate to the project directory:
+### 2. Navigate to the Project Directory
 
-\`\`\`bash
+```bash
 cd scamlens
-\`\`\`
+```
 
-Open the application by launching:
+### 3. Run the Application
 
-\`\`\`text
-index.html
-\`\`\`
+You can open `index.html` directly in your browser.
 
 Alternatively, start a local development server:
 
-\`\`\`bash
+```bash
 python -m http.server 8000
-\`\`\`
+```
 
-Open the following address:
+Then open:
 
-\`\`\`text
+```text
 http://localhost:8000
-\`\`\`
+```
 
-No additional dependencies or installation steps are required.
+That's it! No additional dependencies or complex setup are required.
+
+---
 
 ## 📂 Project Structure
 
-\`\`\`text
+The current application is organized around the following core files:
+
+```text
 ScamLens/
 │
-├── index.html          # Main application interface
-├── style.css           # Styling and responsive design
-├── app.js              # Detection logic and application functionality
-├── favicon.svg         # Application icon
-├── README.md           # Project documentation
-├── CONTRIBUTING.md     # Contribution guidelines
-└── SECURITY.md         # Security policy
-\`\`\`
+├── index.html       # Main application interface
+├── style.css        # Styling and responsive layouts
+├── app.js           # Application logic and detection functionality
+└── favicon.svg      # Application icon
+```
+
+Additional documentation files, such as `CONTRIBUTING.md` and `SECURITY.md`, can be added as the project grows.
+
+---
 
 ## 🔐 Privacy and Security
 
-ScamLens is designed to perform its current analysis directly in the user's browser.
+Privacy is an important consideration in ScamLens.
+
+The current application is designed to perform its analysis directly in the user's browser.
 
 - No account registration is required.
 - Message and URL analysis runs locally.
 - Scan history is stored using browser LocalStorage.
-- No backend database is currently required.
-- The application does not intentionally transmit submitted scan content to an external analysis service.
+- No backend database is required for the current functionality.
+- Submitted scan content is not intentionally sent to an external analysis service.
 
-**Privacy reminder:** Avoid entering real OTPs, passwords, PINs, CVVs, or sensitive banking information.
+**Important privacy reminder:** Never enter real OTPs, passwords, UPI PINs, CVVs, or other sensitive financial information into any demonstration or analysis tool.
+
+---
 
 ## ⚠️ Important Disclaimer
 
-ScamLens is an educational cybersecurity prototype and should not be considered a professional security scanner.
+ScamLens is an educational cybersecurity awareness project. It is not a professional security scanner, antivirus solution, or guaranteed fraud-detection service.
 
-- Detection is based on predefined patterns, not a trained AI model.
-- It does not use live threat-intelligence databases.
-- It cannot verify website ownership or sender identity.
-- It may produce false positives and false negatives.
-- A low score does not guarantee that a message or website is safe.
-- Risk scores are illustrative indicators, not probabilities of fraud.
+Please keep the following limitations in mind:
 
-Always verify suspicious communications through official channels.
+- Detection is based on predefined rules and patterns, not a trained AI or machine-learning model.
+- The application does not currently use live threat-intelligence databases.
+- It cannot independently verify the identity of a sender or the ownership of a website.
+- Results may include false positives and false negatives.
+- A low risk score does not guarantee that a message or website is safe.
+- Risk scores are illustrative indicators, not statistically validated probabilities of fraud.
 
-## 🇮🇳 Important Cybercrime Resources
+Always exercise caution and verify suspicious communications through official websites, applications, or customer-support channels.
 
-If you encounter online fraud in India, use official reporting channels.
+---
 
-| Resource | Details |
+## 🇮🇳 Important Cybercrime Resources — India
+
+If you encounter an online scam or financial cyber fraud in India, consider using the following official resources.
+
+| Resource | Purpose |
 |---|---|
-| National Cyber Crime Portal | https://cybercrime.gov.in/ |
-| Cyber Financial Fraud Helpline | 1930 |
-| CERT-In | https://www.cert-in.org.in/ |
-| Reserve Bank of India | https://www.rbi.org.in/ |
+| [National Cyber Crime Portal](https://cybercrime.gov.in/) | Report cybercrime incidents |
+| **1930** | Cyber financial fraud helpline |
+| [CERT-In](https://www.cert-in.org.in/) | India's national cybersecurity incident-response agency |
+| [Reserve Bank of India](https://www.rbi.org.in/) | Banking and financial awareness resources |
 
-If you experience financial cyber fraud, contact your bank immediately and report it promptly through the appropriate official channels.
+**If you experience financial cyber fraud:** Contact your bank immediately and report the incident through the appropriate official channels as soon as possible.
+
+---
 
 ## 🔮 Future Scope
 
+ScamLens is a project that can evolve with additional cybersecurity capabilities.
+
 Potential future improvements include:
 
-- AI-assisted message analysis through a secure backend.
-- Integration with trusted URL reputation services.
-- Multilingual scam detection.
-- Advanced phishing detection techniques.
-- Improved detection accuracy through testing and evaluation.
-- More detailed security reports.
-- Expanded cybersecurity learning resources.
+- **AI-Assisted Message Analysis:** Explore more advanced message analysis through a secure backend.
+- **URL Reputation Integration:** Connect with trusted URL reputation and threat-intelligence services.
+- **Multilingual Detection:** Support scam identification across multiple languages.
+- **Advanced Phishing Detection:** Improve detection techniques for deceptive websites and communication.
+- **Improved Evaluation:** Test detection rules against diverse datasets and measure their effectiveness.
+- **Detailed Security Reports:** Provide more comprehensive explanations and downloadable reports.
+- **Expanded Learning Resources:** Add more interactive cybersecurity lessons and real-world scenarios.
 
-These are planned possibilities, not currently implemented features.
+These are possible future enhancements and are not represented as currently implemented features.
+
+---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions, suggestions, and improvements are welcome!
 
-If you would like to contribute:
+Whether you're interested in frontend development, cybersecurity, usability, or documentation, your contribution can help make ScamLens better.
+
+### How to Contribute
 
 1. Fork this repository.
-2. Create a new branch.
+2. Create a new feature branch.
 3. Make your changes.
 4. Test your implementation.
-5. Submit a Pull Request.
+5. Commit and push your changes.
+6. Open a Pull Request describing your contribution.
 
-Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md) when available.
+
+---
 
 ## 👨‍💻 Developer
 
 **Parrish Tarak**
 
-GitHub: [@iamparrish](https://github.com/iamparrish)
+Developer of ScamLens — a project focused on making cybersecurity awareness more accessible and encouraging safer digital habits.
 
-Project: [ScamLens](https://github.com/iamparrish/scamlens)
+- **GitHub:** [@iamparrish](https://github.com/iamparrish)
+- **Project Repository:** [ScamLens](https://github.com/iamparrish/scamlens)
+
+---
+
+## ⭐ Support the Project
+
+If you find ScamLens useful or appreciate its goal of promoting digital safety:
+
+- Give the repository a ⭐ Star.
+- Share it with friends and fellow developers.
+- Suggest improvements or report issues.
+- Contribute to making the internet a safer place.
+
+Every contribution, suggestion, and bit of support is appreciated.
 
 ---
 
 <p align="center">
   <strong>Built with a vision to promote safer digital habits.</strong>
   <br><br>
-  🔍 Pause. Check. Stay One Step Safer.
+  🔍 <strong>ScamLens — Pause. Check. Stay One Step Safer.</strong>
 </p>
